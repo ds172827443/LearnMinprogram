@@ -1,5 +1,9 @@
 {
   "usingComponents": {
-    "My-cpn":"/Component/My-cpn/My-cpn"
+    "My-cpn":"/Component/My-cpn/My-cpn",
+    "my-event":"/Component/my-event/my-event",
+    "tabar":"/Component/Tabar/tabar",
+    "my-sel":"/Component/my-sel/my-sel",
+    "my-slot":"/Component/my-slot/my-slot"
   }
 }

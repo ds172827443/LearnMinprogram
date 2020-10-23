@@ -1,2 +1,20 @@
 <!--index.wxml-->
-<My-cpn></My-cpn>
+
+<!-- 自定义组件传递样式/数据 -->
+<My-cpn title='我是home赋予的值' titleclass='red'></My-cpn>
+<My-cpn title='我是赋予的值2' titleclass='blue'></My-cpn>
+
+<!-- 自定义组件传递事件 this.triggerEvent -->
+<view>{{counter}}</view>
+<my-event bindbtnAddClick="btnAddClick"></my-event>
+
+
+<!-- 自定义tabar -->
+<tabar titles="{{titles}}" bindTabarClick="TabarClick"></tabar>
+
+<!-- 获取组件对象 this.selectComponent 可通过类名或者id  推荐id-->
+<my-sel class="mysel"></my-sel>
+<button bindtap="MySelClick">my-sel</button>
+
+
+<my-slot></my-slot>

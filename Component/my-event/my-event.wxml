@@ -1,0 +1,3 @@
+<!--Component/my-event/my-event.wxml-->
+
+<button bindtap="btnAddClick">点击+1</button>

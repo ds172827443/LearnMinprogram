@@ -1,0 +1,2 @@
+<!--Component/my-sel/my-sel.wxml-->
+<view>my-sel组件内的值为：{{counter}}</view>

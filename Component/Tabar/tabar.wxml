@@ -1,0 +1,9 @@
+<!--Component/Tabar/tabar.wxml-->
+<view class="tabar">
+  <block wx:for="{{titles}}" wx:key="index">
+    <view class="item {{currentIndex == index ? 'active':''}}" 
+          data-index="{{index}}" bindtap="TabarClick">
+          {{item}}
+    </view>
+  </block>
+</view>

@@ -1,2 +1,2 @@
 <!--Component/My-cpn/My-cpn.wxml-->
-<view class="title">我是My-cpn组件</view>
+<view class="title titleclass">{{title}}</view>

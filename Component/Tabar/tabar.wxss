@@ -1,0 +1,4 @@
+/* Component/Tabar/tabar.wxss */
+.tabar{display: flex;justify-content: space-around;line-height: 70rpx;background: #eee;}
+.tabar .item{color: #1d1d1d;font-size: 30rpx;text-align: center;flex: 1;}
+.active{background: #a34dc5;}
