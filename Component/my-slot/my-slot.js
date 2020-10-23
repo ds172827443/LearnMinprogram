@@ -1,12 +1,10 @@
 // Component/my-slot/my-slot.js
 Component({
-  /**
-   * 组件的属性列表
-   */
+  options:{
+    multipleSlots:true
+  },
   properties: {
-    options:{
-      multipleSlots:true
-    }
+
   },
 
   /**
@@ -21,5 +19,20 @@ Component({
    */
   methods: {
 
+  },
+  // 监听页面所在生命周期
+  pageLifetimes:{
+    show(){
+      console.log('监听页面页面显示出来时');   
+    },
+    hide(){
+      console.log('监听页面页面隐藏出来时');   
+    },
+    resize(){
+      console.log('监听页面尺寸改变时');  
+    }
+  },
+  lifetimes:{
+    
   }
 })

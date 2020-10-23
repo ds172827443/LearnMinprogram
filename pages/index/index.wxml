@@ -17,4 +17,6 @@
 <button bindtap="MySelClick">my-sel</button>
 
 
-<my-slot></my-slot>
+<my-slot>
+  <button slot="slot2">我的插入的按钮</button>
+</my-slot>

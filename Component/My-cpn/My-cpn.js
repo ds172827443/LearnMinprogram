@@ -26,5 +26,5 @@ Component({
    */
   methods: {
 
-  }
+  },
 })
