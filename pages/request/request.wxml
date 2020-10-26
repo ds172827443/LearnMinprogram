@@ -1,0 +1,3 @@
+<!--pages/request/request.wxml-->
+<view>request</view>
+<button open-type="share">分享</button>
