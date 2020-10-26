@@ -1,17 +1,9 @@
 // pages/request/request.js
 import request from '../../network/network'
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
 
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
     request({
       url:'http://152.136.185.210:8000/api/w6/recommend',
