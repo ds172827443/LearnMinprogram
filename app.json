@@ -1,13 +1,15 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/Sort/Sort",
+    "pages/Profile/Profile",
+    "pages/CartShop/CartShop"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#ff5777",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

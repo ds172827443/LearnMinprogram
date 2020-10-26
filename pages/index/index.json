@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "My-cpn":"/Component/My-cpn/My-cpn"
-  }
+  },
+  "navigationBarTitleText": "购物街"
 }
